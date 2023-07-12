@@ -7,7 +7,10 @@ Blogit is a blog site where users can post about anything that interests them. U
 
 ## Features
 
+**User Authentication:** Users can authenticated to edit or delete blogs. 
 **Blog Creation:** Users can easily make blogs. 
+**Blog Edit/Delete:** Authenticated Users can easily edit or delete blogs. 
+**Views Blogs:** Users can easily view blogs from other users. 
 
 
 
@@ -37,7 +40,9 @@ touch .env
 
 3. Add following variables
 
-`REACT_APP_API_BASE_URL`
+```if server running on localhost:3001```
+- REACT_APP_SERVER=http://localhost:3001
+- REACT_APP_IMAGE_URL=http://localhost:3001/images
 
 
 
@@ -50,7 +55,10 @@ touch .env
 
 5. Add following variables
 
-`BASE_URL`
+```if you want the server to run on port 3001```
+- PORT=3001
+- MONGO_URL=mongodb://127.0.0.1:27017/mongodb
+- SECRET=secret
 
 
 
@@ -100,12 +108,6 @@ npm start
 
 - [JWT](https://jwt.io) - App security with tokens
 
-- [Nodemailer](https://nodemailer.com/about/) - Library for sending emails using Node.js
-
-- [Cypress](https://www.cypress.io) - End-to-end testing framework for web applications
-
-- [Jest](https://jestjs.io) - Testing framework widely used for unit testing applications
-
 - [Postman](https://www.postman.com) - Powerful tool for testing and documenting APIs
 
 - [Prettifier](https://prettier.io) - Tool for making code look neat and organized by automatically adjusting its formatting
@@ -120,6 +122,4 @@ npm start
 
 Vipin Devan - [Github](https://github.com/Vipin-Devan) - [LinkedIn](https://www.linkedin.com/in/vipindevan/)
 
-## License
 
-This project is licensed under the MIT License.
