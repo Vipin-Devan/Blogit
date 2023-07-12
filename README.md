@@ -7,10 +7,10 @@ Blogit is a blog site where users can post about anything that interests them. U
 
 ## Features
 
-**User Authentication:** Users can authenticated to edit or delete blogs. 
-**Blog Creation:** Users can easily make blogs. 
-**Blog Edit/Delete:** Authenticated Users can easily edit or delete blogs. 
-**Views Blogs:** Users can easily view blogs from other users. 
+**User Authentication:** Users can authenticated to edit or delete blogs. <br>
+**Blog Creation:** Users can easily make blogs. . <br>
+**Blog Edit/Delete:** Authenticated Users can easily edit or delete blogs. . <br>
+**Views Blogs:** Users can easily view blogs from other users. . <br>
 
 
 
