@@ -27,7 +27,7 @@ Blogit is a blog site where users can post about anything that interests them. U
 1. Clone the repo
 
 ```
-git clone https://github.com/
+git clone [https://github.com/](https://github.com/Vipin-Devan/Blogit)
 cd
 ```
 
