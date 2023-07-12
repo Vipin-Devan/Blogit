@@ -28,7 +28,7 @@ Blogit is a blog site where users can post about anything that interests them. U
 
 ```
 git clone [https://github.com/](https://github.com/Vipin-Devan/Blogit)
-cd
+
 ```
 
 2. Create a `.env` file under `client` directory
@@ -72,7 +72,7 @@ npm i
 7. Start development server for backend
 
 ```
-npm run dev
+npm run server
 ```
 
 8. Install dependencies for frontend
